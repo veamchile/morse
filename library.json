@@ -1,0 +1,29 @@
+{
+  "name": "Morse Libreria ViToKo",
+  "version": "5.5.5",
+  "description": "Descripcion de la libreria...",
+  "keywords": "Key1, key2, key3, etc",
+  "authors": {
+    "name": "VeAm cHiLe",
+    "url": "https://github.com/veamchile/morse",
+    "maintainer": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/veamchile/morse.git"
+  },
+  "homepage": "https://github.com/veamchile/morse",
+  "export": {
+    "exclude": [
+      "extras",
+      "tools"
+    ]
+  },
+  "frameworks": [
+    "arduino",
+    "energia",
+    "wiringpi"
+  ],
+  "platforms": "*",
+  "examples": "examples/*/*.ino"
+}
